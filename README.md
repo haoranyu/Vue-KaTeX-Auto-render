@@ -1,6 +1,6 @@
 # Vue KaTeX Auto-render
 
-KaTeX enables fast math typesetting for the web. **Vue KaTeX Auto-render** is a plugin to help you use KaTeX together with [auto-render extension of KaTeX](https://katex.org/docs/autorender.html). I
+KaTeX enables fast math typesetting for the web. **Vue KaTeX Auto-render** is a plugin to help you use KaTeX together with [auto-render extension of KaTeX](https://katex.org/docs/autorender.html).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
