@@ -75,16 +75,23 @@ You may also pass some configurations to customize the result. For example, if y
 
 ```html
 <template>
-  <div v-katex="{
-    delimiters: [
-      {left: "[KaTeX_start]", right: "[KaTeX_end]", display: true}
-    ]
-  }">
-    [KaTeX_start]% Here is some comment
-    f({x}) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}
-    \,d\xi[KaTeX_end]
+  <div v-katex="options">
+    [KaTeX_start]f({x}) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi[KaTeX_end]
   </div>
 </template>
+<script>
+export default {
+  data: function() {
+    return {
+      options: {
+        delimiters: [
+          {left: "[KaTeX_start]", right: "[KaTeX_end]", display: true}
+        ]
+      }
+    };
+  }
+}
+</script>
 ```
 
 Beside the option of `delimiters`, you can set `ignoredTags`, `ignoredClasses`, `errorCallback`, `preProcess`, etc as you need. You may refer to document of [Auto-render Extension](https://katex.org/docs/autorender.html) for further descriptions of the these options.
