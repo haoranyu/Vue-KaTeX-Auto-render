@@ -10,17 +10,8 @@ Vue 2.x
 
 ### Installation
 
-
-#### With NPM
-
 ```bash
 npm install --save vue-katex-auto-render
-```
-
-#### With Yarn
-
-```bash
-yarn add vue-katex
 ```
 
 #### Make it work with Vue
