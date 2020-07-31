@@ -13,5 +13,6 @@ export default function (el, binding) {
   if (binding.value) {
     options = binding.value;
   }
+  el.style.position = 'relative';
   KatexAutoRender(el, options);
 }
