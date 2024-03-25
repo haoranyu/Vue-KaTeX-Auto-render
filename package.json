@@ -20,6 +20,6 @@
   "author": "Haoran Yu",
   "license": "MIT",
   "dependencies": {
-    "katex": "^0.11.1"
+    "katex": "^0.16.10"
   }
 }
